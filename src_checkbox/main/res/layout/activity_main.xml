@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24ED60"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="126dp"
+        android:layout_height="51dp"
+        android:text="   USE of Checkbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="ENGLISH"
+        app:layout_constraintTop_toBottomOf="@+id/t2"
+        tools:layout_editor_absoluteX="139dp" />
+
+    <CheckBox
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="HINDI"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        tools:layout_editor_absoluteX="152dp" />
+
+    <CheckBox
+        android:id="@+id/c3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="GUJRATI"
+        app:layout_constraintTop_toBottomOf="@+id/c2"
+        tools:layout_editor_absoluteX="141dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:text="Button"
+        app:layout_constraintTop_toBottomOf="@+id/c3"
+        tools:layout_editor_absoluteX="122dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
